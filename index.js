@@ -27,3 +27,7 @@ function currentLine(name){
   }
   return string;
 }
+
+function Technical(DeliLine, number){
+  return DeliLine[number - 1];
+}
