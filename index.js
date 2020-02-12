@@ -18,7 +18,7 @@ function currentLine(name){
   if(name.length > 0){
   for(var i = 0; i < name.length ; i++){
     string += (i + 1) + ". " + name[i];
-    if (i < (name.length -1))
+    if (i < (name.length - 1))
     string += ", "
     
   }
